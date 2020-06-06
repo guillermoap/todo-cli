@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "todo-cli"
+version = "0.1.0"
+description = "A todo CLI"
+authors = ["Guillermo Aguirre <guillermoaguirre1@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rich = "^1.3.1"
+typer = "^0.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.3"
+pytest-mock = "^3.1.1"
+pytest-cov = "^2.9.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
